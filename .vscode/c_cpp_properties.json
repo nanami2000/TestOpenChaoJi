@@ -1,0 +1,44 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/nanam/Documents/PlatformIO/Projects/211109-051530-cmsis-blink/include",
+                "C:/Users/nanam/Documents/PlatformIO/Projects/211109-051530-cmsis-blink/src",
+                "C:/Users/nanam/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include",
+                "C:/Users/nanam/.platformio/packages/framework-cmsis-stm32f7/Include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/nanam/Documents/PlatformIO/Projects/211109-051530-cmsis-blink/include",
+                    "C:/Users/nanam/Documents/PlatformIO/Projects/211109-051530-cmsis-blink/src",
+                    "C:/Users/nanam/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include",
+                    "C:/Users/nanam/.platformio/packages/framework-cmsis-stm32f7/Include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50203",
+                "STM32F767xx",
+                "STM32F7",
+                "F_CPU=216000000L",
+                "__PLATFORMIO_BUILD_DEBUG__",
+                ""
+            ],
+            "compilerPath": "C:/Users/nanam/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m7",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
